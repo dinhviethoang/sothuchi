@@ -1,5 +1,5 @@
 // Service worker của Sổ Thu Chi: lưu sẵn "vỏ app" để mở nhanh và hiện thông báo khi mất mạng.
-const CACHE = 'sothuchi-shell-v1';
+const CACHE = 'sothuchi-shell-v2';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png'];
 
 self.addEventListener('install', e => {
